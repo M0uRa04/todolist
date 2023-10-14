@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>br.com.robsonmoura</groupId>
 	<artifactId>todolist</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>todolist</name>
 	<description>Gerenciador de tarefas</description>
 	<properties>
@@ -59,6 +59,15 @@
 			<artifactId>bcrypt</artifactId>
 			<version>0.10.2</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<optional>true</optional>
+			<version>3.1.4</version>
+		</dependency>
+
 
 	</dependencies>
 
